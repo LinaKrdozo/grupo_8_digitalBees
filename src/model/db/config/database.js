@@ -1,7 +1,7 @@
 module.exports = {
   "development": {
     "username": "root",
-    "password": "root12345",
+    "password": "password",
     "database": "digitalBees",
     "host": "127.0.0.1",
     "port": 3306,
@@ -9,7 +9,7 @@ module.exports = {
   },
   "test": {
     "username": "root",
-    "password": "root12345",
+    "password": "password",
     "database": "digitalBees",
     "host": "127.0.0.1",
     "port": 3306,
@@ -17,11 +17,12 @@ module.exports = {
   },
   "production": {
     "username": "root",
-    "password": "root12345",
+    "password": "password",
     "database": "digitalBees",
     "host": "127.0.0.1",
     "port": 3306,
     "dialect": "mysql"
   }
 }
+
 
